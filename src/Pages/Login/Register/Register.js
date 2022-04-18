@@ -22,9 +22,9 @@ const Register = () => {
         navigate('/login');
     }
 
-    if (loading || updating) {
-        return <Loading></Loading>
-    }
+    // if (loading || updating) {
+    //     return <Loading></Loading>
+    // }
 
     if (user) {
         console.log('user', user);
@@ -62,7 +62,7 @@ const Register = () => {
                     value="Register" />
             </form>
             <p>Already have an account? <Link to="/login" className='text-primary pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link> </p>
-            <SocialLogin></SocialLogin>
+            {/* <SocialLogin></SocialLogin> */}
         </div>
     );
 };
