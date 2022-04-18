@@ -22,20 +22,16 @@ const Register = () => {
         navigate('/login');
     }
 
-    // if (loading || updating) {
-    //     return <Loading></Loading>
-    // }
-
-    if (user) {
-        console.log('user', user);
+    if (loading || updating) {
+        return <Loading></Loading>
     }
+
 
     const handleRegister = async (event) => {
         event.preventDefault();
         const name = event.target.name.value;
         const email = event.target.email.value;
         const password = event.target.password.value;
-        // const agree = event.target.terms.checked;
 
         await createUserWithEmailAndPassword(email, password);
         await updateProfile({ displayName: name });
