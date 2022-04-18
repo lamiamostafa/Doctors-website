@@ -5,7 +5,7 @@ const NotFound = () => {
     return (
         <div>
             <h2 className='text-primary text-center'>404 Not Found</h2>
-            <img className='w-100' src={sleeping} alt="" />
+            {/* <img className=' img-fluid' src={sleeping} alt="" /> */}
         </div>
     );
 };
