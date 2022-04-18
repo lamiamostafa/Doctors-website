@@ -1,7 +1,7 @@
 
 
 # Independent Service Provider
-## [Live Site Link](https://bespoke-otter-15ab52.netlify.app/)
+## [Live Site Link](https://app.netlify.com/sites/lucky-salmiakki-a00be5/)
 
 ## Project Includes
 
