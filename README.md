@@ -1,7 +1,7 @@
 
 
 # Independent Service Provider
-## [Live Site Link](https://independent-service-prov-781cb.web.app/)
+## [Doctor's WebSite Live Link](https://independent-service-prov-781cb.web.app/)
 
 ## Project Includes
 
