@@ -22,8 +22,8 @@ const Banner = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>Most Trusted Health Partner for life</h3>
-                    <p>We are Ready to give you the best treatment.</p>
+                    <h3>Every Patients id Different</h3>
+                    <p>Every Smile is Unique</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>

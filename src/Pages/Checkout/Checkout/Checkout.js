@@ -20,6 +20,12 @@ const Checkout = () => {
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Control type="text" placeholder="Your Diseases" />
                 </Form.Group>
+                <Form.Group className="mb-3" controlId="formBasicPassword">
+                    <Form.Control type="text" placeholder="Appointment Time" />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="formBasicPassword">
+                    <Form.Control type="text" placeholder="Appointment Date" />
+                </Form.Group>
                 <Button onClick={handleCheckOut} variant="primary w-50 mx-auto d-block mb-2" type="submit">
                     CheckOut
                 </Button>

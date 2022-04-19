@@ -11,6 +11,8 @@ import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
 import Footer from './Pages/Shared/Footer/Footer';
 import Checkout from './Pages/Checkout/Checkout/Checkout';
+import Feedback from 'react-bootstrap/esm/Feedback';
+import WhyUs from './Pages/Home/WhyUs/WhyUs';
 
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
         <Route path='/service/:serviceId' element={<ServiceDetail></ServiceDetail>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
+        <Route path="feedback" element={<Feedback></Feedback>}></Route>
+        <Route path="whyUS" element={<WhyUs></WhyUs>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
         <Route path="/checkout" element={
           <RequireAuth>

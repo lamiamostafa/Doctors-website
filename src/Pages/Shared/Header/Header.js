@@ -29,7 +29,9 @@ const Header = () => {
                         <Nav className="me-auto">
 
                             <Nav.Link href="home#services">Services</Nav.Link>
+                            <Nav.Link href="home#whyUs">Why Us</Nav.Link>
                             <Nav.Link as={Link} to="blogs">Blogs</Nav.Link>
+                            <Nav.Link href="home#feedback">FeedBack</Nav.Link>
 
                         </Nav>
                         <Nav>
